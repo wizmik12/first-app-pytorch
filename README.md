@@ -6,7 +6,13 @@ Taller organizado en el contexto de la [PyconES 2022](https://2022.es.pycon.org/
 Granada · 30 de septiembre del 2022 · 15:30–19:30
 
 ### Descripción del taller
-<span style="color:red">Esto habría que arreglarlo, escribirlo mejor y sobre todo hacerlo cuando tengamos el taller acabado.</span>
+
+
+
+
+<font color='red'>Esto habría que arreglarlo, escribirlo mejor y sobre todo hacerlo cuando tengamos el taller acabado.</font>
+
+
 
 Este taller pretende que los asistentes, sin necesidad de tener conocimientos previos sobre la librería, desarrollen una aplicación en Pytorch, una de las librerías por excelencia en Python para desarrollar tareas de aprendizaje automático. En concreto, los asistentes abordarán el diseño y desarrollo de una aplicación de aprendizaje automático desde cero, partiendo de lo básico del funcionamiento del framework, y concluyendo con el despliegue de una aplicación propia en la web.
 
@@ -20,13 +26,13 @@ Este taller se divide en cuatro bloques:
 
 ## Tabla de contenidos
 
-<span style="color:red">Esto habría que hacerlo cuando tengamos el taller acabado y ver si mezclarlo o no con la parte de arriba de los bloques (linkearlo a los notebooks)</span>
 
 
+<font color='red'>Esto habría que hacerlo cuando tengamos el taller acabado y ver si mezclarlo o no con la parte de arriba de los bloques (linkearlo a los notebooks)</font>
 ## Getting started?¿
 
 contar lo de jupyter y todo eso. instalacion de librerias. todo eso va aqui
 
-<span style="color:red">Por rellenar aun cuando tengamos las cosas mas claras.</span>
+<font color='red'>Por rellenar aun cuando tengamos las cosas mas claras.</font>
 
 ## Dependencias
