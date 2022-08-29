@@ -9,8 +9,7 @@ Granada · 30 de septiembre del 2022 · 15:30–19:30
 
 
 
-
-<font color='red'>Esto habría que arreglarlo, escribirlo mejor y sobre todo hacerlo cuando tengamos el taller acabado.</font>
+>Esto habría que arreglarlo, escribirlo mejor y sobre todo hacerlo cuando tengamos el taller acabado.
 
 
 
@@ -28,11 +27,12 @@ Este taller se divide en cuatro bloques:
 
 
 
-<font color='red'>Esto habría que hacerlo cuando tengamos el taller acabado y ver si mezclarlo o no con la parte de arriba de los bloques (linkearlo a los notebooks)</font>
+>Esto habría que hacerlo cuando tengamos el taller acabado y ver si mezclarlo o no con la parte de arriba de los bloques (linkearlo a los notebooks)
+
 ## Getting started?¿
 
 contar lo de jupyter y todo eso. instalacion de librerias. todo eso va aqui
 
-<font color='red'>Por rellenar aun cuando tengamos las cosas mas claras.</font>
+>Por rellenar aun, cuando tengamos las cosas mas claras
 
 ## Dependencias
