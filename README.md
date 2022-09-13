@@ -29,10 +29,54 @@ Este taller se divide en cuatro bloques:
 
 >Esto habría que hacerlo cuando tengamos el taller acabado y ver si mezclarlo o no con la parte de arriba de los bloques (linkearlo a los notebooks)
 
-## Getting started?¿
+## Antes de comenzar
 
 contar lo de jupyter y todo eso. instalacion de librerias. todo eso va aqui
 
->Por rellenar aun, cuando tengamos las cosas mas claras
+### ¡Empezando desde cero con Conda!
 
-## Dependencias
+Lo primero es crear un entorno de trabajo para este taller. De esta forma partiremos de cero, con un entorno limpio, sobre el que trabajar y no interceder en otros proyectos en marcha.
+
+~~~
+$ conda create -n first_pytorch python=3.7
+~~~
+
+¡Lo primero es lo primero! Instala [Pytorch](https://pytorch.org/) con Conda:
+
+~~~
+$ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+~~~
+
+La forma más cómoda de trabajar es por medio de notebooks. Podemos utilizar Jupyter, una aplicación web de código abierto que nos permite llevar a cabo todo el proceso de desarrollo de un proyecto de forma interactiva, visual, intercalando textos y código.
+
+~~~
+$ conda install -c anaconda jupyter
+~~~
+
+Los proyectos de Machine Learning en Python suelen usar librerías comunes, como pueden ser aquellas que nos permiten trabajar con estructuras de datos (como *Pandas*) y realizar visualizaciones de datos (como *matplotlib*). ¡Las instalamos también, pues las usaremos como buenos científicos de datos que somos!
+
+~~~
+$ conda install -c conda-forge matplotlib
+$ conda install -c anaconda pandas
+~~~
+
+Además, también necesitamos instalar..... ¿ESTAS PARA QUE SONNN????''
+
+~~~
+$ conda install -c pytorch torchtext
+
+conda install -c conda-forge ipywidgets
+
+conda install -c anaconda pillow
+~~~
+
+¡Ya estamos acabando de preparar nuestro entorno! Nos falta Streamlit, una librería que nos permitirá desplegar nuestro proyecto. Para ello ejecutamos la siguiente orden:
+~~~
+$ conda install -c conda-forge streamlit
+~~~
+
+
+### ¡Prefiero pip!
+
+### ¡No tengo Python instalado!
+En este caso, Google Notebooks es tu solución! Puedes hacer uso de todos los recursos del taller a través de Google Notebooks sin tener que instalar Python en tu ordenador.... 
