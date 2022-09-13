@@ -29,11 +29,10 @@ Este taller se divide en cuatro bloques:
 
 >Esto habría que hacerlo cuando tengamos el taller acabado y ver si mezclarlo o no con la parte de arriba de los bloques (linkearlo a los notebooks)
 
-## Antes de comenzar
+## Antes de comenzar...
 
-contar lo de jupyter y todo eso. instalacion de librerias. todo eso va aqui
 
-### ¡Empezando desde cero con Conda!
+#### ¡Empezando desde cero con Conda!
 
 Lo primero es crear un entorno de trabajo para este taller. De esta forma partiremos de cero, con un entorno limpio, sobre el que trabajar y no interceder en otros proyectos en marcha.
 
@@ -76,7 +75,8 @@ $ conda install -c conda-forge streamlit
 ~~~
 
 
-### ¡Prefiero pip!
+#### ¡Prefiero pip!
 
-### ¡No tengo Python instalado!
-En este caso, Google Notebooks es tu solución! Puedes hacer uso de todos los recursos del taller a través de Google Notebooks sin tener que instalar Python en tu ordenador.... 
+#### ¡No tengo Python instalado!
+
+¡Pero qué poca vergüenza! Pero no pasa nada, en este caso [Google Colab](https://colab.research.google.com/) es tu mejor amigo! Puedes hacer uso de todos los recursos del taller a través de Google Colab sin tener que instalar Python en tu ordenador.
