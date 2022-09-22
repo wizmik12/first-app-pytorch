@@ -1,4 +1,4 @@
-# Mi primera aplicación con Pytorch
+# Mi primera aplicación con Pytorch (En construcción)
 
 Autores: [Andrea Morales Garzón](https://andreamorgar.github.io/) y [Miguel López Pérez](https://wizmik12.netlify.app/).\
 Taller organizado en el contexto de la [PyconES 2022](https://2022.es.pycon.org/).
