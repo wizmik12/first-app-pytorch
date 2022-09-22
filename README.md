@@ -16,18 +16,17 @@ Granada · 30 de septiembre del 2022 · 15:30–19:30
 Este taller pretende que los asistentes, sin necesidad de tener conocimientos previos sobre la librería, desarrollen una aplicación en Pytorch, una de las librerías por excelencia en Python para desarrollar tareas de aprendizaje automático. En concreto, los asistentes abordarán el diseño y desarrollo de una aplicación de aprendizaje automático desde cero, partiendo de lo básico del funcionamiento del framework, y concluyendo con el despliegue de una aplicación propia en la web.
 
 Este taller se divide en cuatro bloques:
-1. **Introducción a Pytorch.** En este bloque se explica en qué consisten las librerías para redes neuronales como Pytorch y cómo funcionan. Se dará una idea general de qué son las redes neuronales y cómo esta librería nos ayuda. Se contará con un ejercicio sobre una red neuronal sencilla y problemas de optimización que permitan comprender las nociones más básicas de la librería.
-2. **Pytorch para CV.** Se verán varios ejemplos de Pytorch en problemas reales, aplicados a clasificación y generación de imágenes y por último a tareas de texto como Question and Answering o generación de texto.
-3. **Pytorch para NLP.**
-3. **Diseño y desarrollo de una aplicación ML con Pytorch.** Ya con una visión general de la librería, se propondrán varios ejemplos de aplicaciones sencillas de aprendizaje automático a llevar a cabo con Pytorch, con la finalidad de aplicar los conocimientos. Se propondrán diversas opciones de tareas, aunque los asistentes podrán también realizar una de su elección.
-4. **Despliegue de la aplicación desarrollada.** Por último, se hará un despliegue de una aplicación sencilla con el objetivo de desplegar en la nube un sistema de aprendizaje automático que pueda hacer una tarea sencilla.
+* a\. **Introducción a Pytorch.** En este bloque se explica en qué consisten las librerías para redes neuronales como Pytorch y cómo funcionan. Se dará una idea general de qué son las redes neuronales y cómo esta librería nos ayuda. Se contará con un ejercicio sobre una red neuronal sencilla y problemas de optimización que permitan comprender las nociones más básicas de la librería. Para este bloque usaremos los siguientes notebooks:
+	* 0\. [notebooks/0_Introducción_a_Pytorch.ipynb](0_Introducción_a_Pytorch.ipynb) contiene una breve introducción a Pytorch.
+	* 1\. [notebooks/1_tensores.ipynb](1_tensores.ipynb) explica los elementos con los que se trabajan en Pytorch, los tensores.
+	* 2\. [notebooks/2_regresión.ipynb](2_regresión.ipynb) contiene un ejemplo de regresión con un modelo lineal y con una red neuronal. Seremos capaces de ver como se definen y optimizan los 		modelos en pytorch.
+* b\. **Pytorch para CV.** Se verán varios ejemplos de Pytorch en problemas reales, aplicados a clasificación y generación de imágenes y por último a tareas de texto como Question and Answering o generación de texto.
+	* 3\. [notebooks/3_clasificación_imágenes.ipynb](3_clasificación_imágenes.ipynb) contiene un ejemplo de clasificación de imágenes de satélites. Para ello se entrenará tanto una red 			convolucional desde 0 como una arquitectura preentrenada (de las más potentes que hay!).
+* c\. **Pytorch para NLP.**
+	* 4\. [notebooks/4_procesamiento_lenguaje_natural.ipynb](4_procesamiento_lenguaje_natural.ipynb) 
+* d\. **Diseño y desarrollo de una aplicación ML con Pytorch. Despliegue de la aplicación desarrollada.** Ya con una visión general de la librería, se propondrán varios ejemplos de aplicaciones sencillas de aprendizaje automático a llevar a cabo con Pytorch, con la finalidad de aplicar los conocimientos. Se propondrán diversas opciones de tareas, aunque los asistentes podrán también realizar una de su elección. Por último, se hará un despliegue de una aplicación sencilla con el objetivo de desplegar en la nube un sistema de aprendizaje automático que pueda hacer una tarea sencilla.
+	* 5\. [notebooks/5_aplicación_clasificación_imágenes.py](5_aplicación_clasificación_imágenes.py) tiene el script en Python que lanza una aplicación en streamlit de la red neuronal de visión 			previamente entrenada en el notebook 3.
 
-
-## Tabla de contenidos
-
-
-
->Esto habría que hacerlo cuando tengamos el taller acabado y ver si mezclarlo o no con la parte de arriba de los bloques (linkearlo a los notebooks)
 
 ## Antes de comenzar...
 
@@ -46,7 +45,7 @@ $ conda create -n first_pytorch python=3.7
 $ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ~~~
 
-La forma más cómoda de trabajar es por medio de notebooks. Podemos utilizar Jupyter, una aplicación web de código abierto que nos permite llevar a cabo todo el proceso de desarrollo de un proyecto de forma interactiva, visual, intercalando textos y código.
+La forma más cómoda de trabajar es por medio de notebooks. Podemos utilizar *Jupyter*, una aplicación web de código abierto que nos permite llevar a cabo todo el proceso de desarrollo de un proyecto de forma interactiva, visual, intercalando textos y código.
 
 ~~~
 $ conda install -c anaconda jupyter
@@ -59,7 +58,7 @@ $ conda install -c conda-forge matplotlib
 $ conda install -c anaconda pandas
 ~~~
 
-Además, también necesitamos instalar..... ¿ESTAS PARA QUE SONNN????''
+Además, también necesitamos instalar *torchtext* para texto y *pillow* para tratar con imágenes. Por último, conseguiremos notebooks interactivos muy vistosos con *ipywidgets*.
 
 ~~~
 $ conda install -c pytorch torchtext
