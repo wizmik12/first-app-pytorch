@@ -7,12 +7,6 @@ Granada · 30 de septiembre del 2022 · 15:30–19:30
 
 ### Descripción del taller
 
-
-
->Esto habría que arreglarlo, escribirlo mejor y sobre todo hacerlo cuando tengamos el taller acabado.
-
-
-
 Este taller pretende que los asistentes, sin necesidad de tener conocimientos previos sobre la librería, desarrollen una aplicación en Pytorch, una de las librerías por excelencia en Python para desarrollar tareas de aprendizaje automático. En concreto, los asistentes abordarán el diseño y desarrollo de una aplicación de aprendizaje automático desde cero, partiendo de lo básico del funcionamiento del framework, y concluyendo con el despliegue de una aplicación propia en la web.
 
 Este taller se divide en cuatro bloques:
@@ -63,9 +57,9 @@ Además, también necesitamos instalar *torchtext* para texto y *pillow* para tr
 ~~~
 $ conda install -c pytorch torchtext
 
-conda install -c conda-forge ipywidgets
+$ conda install -c conda-forge ipywidgets
 
-conda install -c anaconda pillow
+$ conda install -c anaconda pillow
 ~~~
 
 ¡Ya estamos acabando de preparar nuestro entorno! Nos falta Streamlit, una librería que nos permitirá desplegar nuestro proyecto. Para ello ejecutamos la siguiente orden:
