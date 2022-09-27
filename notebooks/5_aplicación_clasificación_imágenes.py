@@ -21,7 +21,7 @@ preprocess= transforms.Compose([
 efficientnet = torchvision.models.efficientnet_b0(weights="IMAGENET1K_V1")
 efficientnet.classifier[1] = torch.nn.Linear(in_features = 1280, out_features = 10)
 
-efficientnet.load_state_dict(torch.load('efficientnet.pt'))
+efficientnet.load_state_dict(torch.load('efficientnet.pt', map_location=torch.device('cpu')))
                                         
                            
 
