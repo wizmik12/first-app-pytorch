@@ -38,10 +38,16 @@ Para que puedas trabajar de la forma que te resulte más cómoda, os damos varia
 
 Si no tienes Conda instalado, puedes seguir las instrucciones detalladas en la página oficial de conda en el siguiente [enlace](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
-Una vez con conda instalado en nuestro ordenador, lo primero es crear un entorno de trabajo para este taller. De esta forma partiremos de cero, con un entorno limpio, sobre el que trabajar y no interceder en otros proyectos en marcha.
+Una vez con conda instalado en nuestro ordenador, lo primero es crear un entorno de trabajo para este taller. De esta forma partiremos de cero, con un entorno limpio, sobre el que trabajar y no interceder en otros proyectos en marcha. A continuación se muestra cómo podemos crear un entorno con conda, al cual hemos denominado *first_pytorch* y hemos instalado la versión 3.7 de Python.
 
 ~~~
 $ conda create -n first_pytorch python=3.7
+~~~
+
+Una vez creado el entorno, es necesario activarlo para poder trabajar en él. Para ello ejecutamos la siguiente orden:
+
+~~~
+$ conda activate first_pytorch
 ~~~
 
 ¡Lo primero es lo primero! Instala [Pytorch](https://pytorch.org/) con Conda:
