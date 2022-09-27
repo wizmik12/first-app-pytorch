@@ -21,7 +21,7 @@ Este taller se divide en tres bloques:
 	* [0_Introducción_a_Pytorch.ipynb](notebooks/0_Introducción_a_Pytorch.ipynb) contiene una breve introducción al framework Pytorch.
 	* [1_tensores.ipynb](notebooks/1_tensores.ipynb) introduce los tensores, estos son los elementos con los que trabaja Pytorch.
 	* [2_regresión.ipynb](notebooks/2_regresión.ipynb) contiene un ejemplo de regresión con un modelo lineal y con una red neuronal sencilla. Nos servirá para ver cómo se definen y optimizan modelos en Pytorch.
-* b\. **Pytorch para CV y NLP.** Este bloque abordará ejemplos prácticos dónde podremos usar Pytorch. Veremos su aplicación en imágenes y en texto. Para ello se usarán los siguientes notebooks:
+* b\. **Pytorch para Computer Vision (CV) y Natural Language Processing (NLP).** Este bloque abordará ejemplos prácticos dónde podremos usar Pytorch. Veremos su aplicación en imágenes y en texto. Para ello se usarán los siguientes notebooks:
 	* [3_clasificación_imágenes.ipynb](notebooks/3_clasificación_imágenes.ipynb) contiene un ejemplo de clasificación de imágenes de satélites. Para ello se entrenará tanto una red 			convolucional desde 0 como una arquitectura preentrenada (de las más potentes que hay!).
 	*  [4_procesamiento_lenguaje_natural.ipynb](notebooks/4_procesamiento_lenguaje_natural.ipynb) se generará poemas con una red neuronal de manera automática!
 * c\. **Despliegue de una aplicación en Pytorch.** Ya con una visión general de la librería, se explicará como se puede construir una aplicación sencilla con Pytorch, con el objetivo de hacer un despliegue en la nube de un sistema de aprendizaje automático que pueda hacer una tarea sencilla. Para ello usaremos el siguiente script:
