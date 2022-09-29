@@ -23,9 +23,9 @@ Este taller se divide en tres bloques:
 	* [2_regresión.ipynb](notebooks/2_regresión.ipynb) contiene un ejemplo de regresión con un modelo lineal y con una red neuronal sencilla. Nos servirá para ver cómo se definen y optimizan modelos en Pytorch.
 * b\. **Pytorch para Computer Vision (CV) y Natural Language Processing (NLP).** Este bloque abordará ejemplos prácticos dónde podremos usar Pytorch. Veremos su aplicación en imágenes y en texto. Para ello se usarán los siguientes notebooks:
 	* [3_clasificación_imágenes.ipynb](notebooks/3_clasificación_imágenes.ipynb) contiene un ejemplo de clasificación de imágenes de satélites. Para ello se entrenará tanto una red 			convolucional desde 0 como una arquitectura preentrenada (de las más potentes que hay!).
-	*  [4_procesamiento_lenguaje_natural.ipynb](notebooks/4_procesamiento_lenguaje_natural.ipynb) se generará poemas con una red neuronal de manera automática!
+	*  [4_procesamiento_lenguaje_natural.ipynb](notebooks/4_procesamiento_lenguaje_natural.ipynb) elaboraremos un clasificador de documentos!
 * c\. **Despliegue de una aplicación en Pytorch.** Ya con una visión general de la librería, se explicará como se puede construir una aplicación sencilla con Pytorch, con el objetivo de hacer un despliegue en la nube de un sistema de aprendizaje automático que pueda hacer una tarea sencilla. Para ello usaremos el siguiente script:
-	*  [5_aplicación_clasificación_imágenes.py](notebooks/5_aplicación_clasificación_imágenes.py) tiene el script en Python que lanza una aplicación en streamlit de la red neuronal de visión 			previamente entrenada en el notebook número 3.
+	*  [5_aplicación_clasificación_imágenes.py](notebooks/5_aplicación_clasificación_imágenes.py) tiene el script en Python que lanza una aplicación en streamlit de la red neuronal de visión 			previamente entrenada en el notebook número 3. Para desplegarlo en la nube proponemos la propia página de [streamlit cloud](https://streamlit.io/). Mira la aplicación desplegada del [clasificador de imágenes de satélite](http://sl.ugr.es/app_satelite). Te proponemos como ejercicio que hagas tu propia aplicación en streamlit, puedes usar el ejemplo de NLP del notebook 4.
 
 
 > Todos los notebooks y scripts contienen **ejercicios** con los que hacer la experiencia más interactiva y poder adquirir los conocimientos de forma adecuada.
