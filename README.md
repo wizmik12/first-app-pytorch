@@ -2,7 +2,7 @@
 
 
 
-👩🏼🧔🏽‍♂️ Autores: [Andrea Morales Garzón](https://andreamorgar.github.io/) y [Miguel López Pérez](https://wizmik12.netlify.app/).\
+Autores: [Andrea Morales Garzón](https://andreamorgar.github.io/) y [Miguel López Pérez](https://wizmik12.netlify.app/).\
 📚 Taller organizado en el contexto de la [PyconES 2022](https://2022.es.pycon.org/). \
 ℹ️ ¡Más información sobre este taller [aquí](https://charlas.2022.es.pycon.org/pycones2022/talk/BRKLNP/)!
 
@@ -102,5 +102,5 @@ De igual forma, todas las librerías anteriores se pueden instalar a través de 
 
 Ya sea para dudas o sugerencias, ¡estamos a vuestra disposición!
 Podéis contactarnos a través de la info de contacto detallada en nuestras páginas personales. Enlaces a continuación:
--	👩🏼 [Andrea Morales Garzón](https://andreamorgar.github.io/)
-- 🧔🏽‍♂️ [Miguel López Pérez](https://wizmik12.netlify.app/)
+- [Andrea Morales Garzón](https://andreamorgar.github.io/)
+- [Miguel López Pérez](https://wizmik12.netlify.app/)
