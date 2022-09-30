@@ -1,5 +1,5 @@
 # Mi primera aplicación con Pytorch
-### ⚙️ Repo en construcción...🔨👷🏼‍♀️‍🔧👷🏽
+
 
 
 👷🏼‍♀️👷🏽‍♂️ Autores: [Andrea Morales Garzón](https://andreamorgar.github.io/) y [Miguel López Pérez](https://wizmik12.netlify.app/).\
@@ -18,7 +18,7 @@ Este taller pretende que los asistentes, sin necesidad de tener conocimientos pr
 
 Este taller se divide en tres bloques:
 * a\. **Introducción a Pytorch.** Este bloque explica en qué consisten las librerías para redes neuronales como Pytorch y cómo funcionan, dando una idea general de qué son las redes neuronales y cómo esta librería nos ayuda. Se contará con un ejercicio sobre una red neuronal sencilla y problemas de optimización que permitan comprender las nociones más básicas de la librería. Para este bloque usaremos los siguientes notebooks:
-	* [0_Introducción_a_Pytorch.ipynb](notebooks/0_Introducción_a_Pytorch.ipynb) contiene una breve introducción al framework Pytorch.
+	* [0_Introducción_a_Pytorch.ipynb](https://github.com/wizmik12/first-app-pytorch/blob/main/slides/Introducción%20a%20PyTorch.pdf) contiene una breve introducción al framework Pytorch.
 	* [1_tensores.ipynb](notebooks/1_tensores.ipynb) introduce los tensores, estos son los elementos con los que trabaja Pytorch.
 	* [2_regresión.ipynb](notebooks/2_regresión.ipynb) contiene un ejemplo de regresión con un modelo lineal y con una red neuronal sencilla. Nos servirá para ver cómo se definen y optimizan modelos en Pytorch.
 * b\. **Pytorch para Computer Vision (CV) y Natural Language Processing (NLP).** Este bloque abordará ejemplos prácticos dónde podremos usar Pytorch. Veremos su aplicación en imágenes y en texto. Para ello se usarán los siguientes notebooks:
