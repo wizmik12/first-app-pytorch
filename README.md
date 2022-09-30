@@ -101,6 +101,6 @@ De igual forma, todas las librerías anteriores se pueden instalar a través de 
 ## Contacto
 
 Ya sea para dudas o sugerencias, ¡estamos a vuestra disposición!
-Podeis contactarnos a través de la info de contacto detallada en nuestras páginas personales. Enlaces a continuación:
+Podéis contactarnos a través de la info de contacto detallada en nuestras páginas personales. Enlaces a continuación:
 -	👩🏼 [Andrea Morales Garzón](https://andreamorgar.github.io/)
 - 🧔🏽‍♂️ [Miguel López Pérez](https://wizmik12.netlify.app/)
