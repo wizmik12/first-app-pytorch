@@ -69,7 +69,7 @@ $ conda install -c conda-forge matplotlib
 $ conda install -c anaconda pandas
 ~~~
 
-Además, también necesitamos instalar *torchtext* para texto y *pillow* para tratar con imágenes. Por último, conseguiremos notebooks interactivos muy vistosos con *ipywidgets*.
+Además, también necesitamos instalar *torchtext* y *transformers* para texto y *pillow* para tratar con imágenes. Por último, conseguiremos notebooks interactivos muy vistosos con *ipywidgets*. Por último instalamos *torchdata* para tener acceso a recursos de datasets.
 
 ~~~
 $ conda install -c pytorch torchtext
@@ -77,6 +77,10 @@ $ conda install -c pytorch torchtext
 $ conda install -c conda-forge ipywidgets
 
 $ conda install -c anaconda pillow
+
+$ conda install -c conda-forge transformers
+
+$ conda install -c pytorch torchdata
 ~~~
 
 ¡Ya estamos acabando de preparar nuestro entorno! Nos falta Streamlit, una librería que nos permitirá desplegar nuestro proyecto. Para ello ejecutamos la siguiente orden:
