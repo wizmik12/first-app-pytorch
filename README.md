@@ -83,7 +83,7 @@ $ conda install -c conda-forge transformers
 $ conda install -c pytorch torchdata
 ~~~
 
-¡Ya estamos acabando de preparar nuestro entorno! Nos falta Streamlit, una librería que nos permitirá desplegar nuestro proyecto. Para ello ejecutamos la siguiente orden:
+¡Ya estamos acabando de preparar nuestro entorno! Nos falta *Streamlit*, una librería que nos permitirá desplegar nuestro proyecto. Para ello ejecutamos la siguiente orden:
 ~~~
 $ conda install -c conda-forge streamlit
 ~~~
